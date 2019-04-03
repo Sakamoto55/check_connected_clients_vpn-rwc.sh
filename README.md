@@ -17,7 +17,7 @@ if [ "$user_count" -le 5 ]
 
         exit 0
 
-elif [ "$user_count" -gt 5 ] && [ "$user_count" -lt 10 ]
+elif [ "$user_count" -gt 5 ] && [ "$user_count" -le 10 ]
 
         then
 
